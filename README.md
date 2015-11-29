@@ -77,5 +77,4 @@ $ip->location->lng; // 37.7898
 $ip->location->lat; // -122.3942
 ```
 
-
 This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com
