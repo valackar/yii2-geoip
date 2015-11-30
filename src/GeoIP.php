@@ -32,7 +32,7 @@ class GeoIP extends Component {
      */
     public function init() {
 
-        $db = Yii::getAlias('@vendor/maxmind-mmdb/city/GeoLite2-City.mmdb');
+        $db = Yii::getAlias('@vendor/lysenkobv/maxmind-geolite2-database/city.mmdb');
 
         $this->session = Yii::$app->session;
         $this->reader = new Reader($db);
