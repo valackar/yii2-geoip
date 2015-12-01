@@ -69,7 +69,7 @@ $ip->location->lat; // -122.3942
 ### Like object directly somewhere in your application
 
 ```php
-$geoip = new \lysenkobv\GeoIP();
+$geoip = new \lysenkobv\GeoIP\GeoIP();
 $ip = $geoip->ip("208.113.83.165");
 
 $ip->city; // "San Francisco"
