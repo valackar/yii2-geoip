@@ -46,7 +46,7 @@ $ php composer update
 $config = [
     ...
     'components' => [
-        'geoip' => ['class' => 'lysenkobv\GeoIP'],
+        'geoip' => ['class' => 'lysenkobv\GeoIP\GeoIP'],
     ]
     ...
 ];
