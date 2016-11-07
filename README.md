@@ -8,6 +8,7 @@ Currently available:
 * Country
 * City
 * Latitude, Longitude
+* Country ISO Code
 
 ## Install
 
@@ -63,6 +64,7 @@ $ip->city; // "San Francisco"
 $ip->country; // "United States"
 $ip->location->lng; // 37.7898
 $ip->location->lat; // -122.3942
+$ip->iso_code; // US
 
 ```
 
@@ -76,6 +78,7 @@ $ip->city; // "San Francisco"
 $ip->country; // "United States"
 $ip->location->lng; // 37.7898
 $ip->location->lat; // -122.3942
+$ip->iso_code; // -122.3942
 ```
 
 This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com
