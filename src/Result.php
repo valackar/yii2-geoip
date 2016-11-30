@@ -44,7 +44,7 @@ class Result extends ResultBase {
         return $value;
     }
 
-    protected function getIso_code($data) {
+    protected function getIsoCode($data) {
         $value = null;
 
         if (isset($data['country']['iso_code'])) {

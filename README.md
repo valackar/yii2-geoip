@@ -56,15 +56,15 @@ $config = [
 somewhere in code
 
 ```php
-$ip = Yii::$app->component->geoip->ip(); // current user ip
+$ip = Yii::$app->geoip->ip(); // current user ip
 
-$ip = Yii::$app->component->geoip->ip("208.113.83.165");
+$ip = Yii::$app->geoip->ip("208.113.83.165");
 
 $ip->city; // "San Francisco"
 $ip->country; // "United States"
 $ip->location->lng; // 37.7898
 $ip->location->lat; // -122.3942
-$ip->iso_code; // US
+$ip->isoCode; // "US"
 
 ```
 
@@ -78,7 +78,7 @@ $ip->city; // "San Francisco"
 $ip->country; // "United States"
 $ip->location->lng; // 37.7898
 $ip->location->lat; // -122.3942
-$ip->iso_code; // -122.3942
+$ip->isoCode;  // "US"
 ```
 
 This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com

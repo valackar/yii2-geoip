@@ -53,7 +53,7 @@ class ResultTest extends TestCase {
 
         foreach ($items as $ip => $expect) {
             $result = $this->result($ip);
-            $actual = $result->iso_code;
+            $actual = $result->isoCode;
             $this->assertEquals($expect, $actual);
         }
     }
