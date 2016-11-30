@@ -44,6 +44,16 @@ class Result extends ResultBase {
         return $value;
     }
 
+    protected function getIsoCode($data) {
+        $value = null;
+
+        if (isset($data['country']['iso_code'])) {
+            $value = $data['country']['iso_code'];
+        }
+
+        return $value;
+    }
+
     public function isDetected() {
         return ($this->location->lat !== null && $this->location->lng !== null);
     }

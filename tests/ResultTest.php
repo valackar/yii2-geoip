@@ -45,6 +45,19 @@ class ResultTest extends TestCase {
         }
     }
 
+    public function testIsoCode() {
+        $items = [
+            "93.210.15.68" => "DE",
+            "177.140.143.40" => "BR",
+        ];
+
+        foreach ($items as $ip => $expect) {
+            $result = $this->result($ip);
+            $actual = $result->isoCode;
+            $this->assertEquals($expect, $actual);
+        }
+    }
+
     public function testLocationType() {
         $items = [
             "72.229.28.185" => "float",
