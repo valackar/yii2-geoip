@@ -81,4 +81,21 @@ $ip->location->lat; // -122.3942
 $ip->isoCode;  // "US"
 ```
 
+### Provide a custom database (for example, if you own a licence)
+
+```php
+<?php
+
+$config = [
+    ...
+    'components' => [
+        'geoip' => [
+            'class' => 'lysenkobv\GeoIP\GeoIP',
+            'dbPath' => Yii::getAlias('@example/maxmind/database/city.mmdb')
+        ],
+    ]
+    ...
+];
+```
+
 This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com
