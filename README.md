@@ -81,7 +81,7 @@ $ip->location->lat; // -122.3942
 $ip->isoCode;  // "US"
 ```
 
-### Provide a custom database (if you for example own a licence)
+### Provide a custom database (for example, if you own a licence)
 
 ```php
 <?php
