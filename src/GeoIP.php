@@ -13,6 +13,11 @@ use yii\web\Session;
  */
 class GeoIP extends Component {
     /**
+     * @var string
+     */
+    public $dbPath;    
+    
+    /**
      * @var Reader
      */
     private $reader;
@@ -31,9 +36,8 @@ class GeoIP extends Component {
      * @inheritDoc
      */
     public function init() {
-
-        $db = Yii::getAlias('@vendor/lysenkobv/maxmind-geolite2-database/city.mmdb');
-
+        $db = $this->dbPath ?: Yii::getAlias('@vendor/lysenkobv/maxmind-geolite2-database/city.mmdb');
+        
         $this->session = Yii::$app->session;
         $this->reader = new Reader($db);
 
