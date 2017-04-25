@@ -22,7 +22,7 @@ class ResultTest extends TestCase {
     public function testCity() {
         $items = [
             "72.229.28.185" => "New York",
-            "208.113.83.165" => "San Francisco",
+            "208.113.83.165" => "Millbrae",
         ];
 
         foreach ($items as $ip => $expect) {
