@@ -98,4 +98,10 @@ $config = [
 ];
 ```
 
+-----------
+
+Thanks to [davicrystal](https://github.com/davicrystal), [krukru](https://github.com/krukru)
+
+-----------
+
 This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com
