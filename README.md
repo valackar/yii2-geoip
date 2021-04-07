@@ -2,6 +2,12 @@ Yii 2 GeoIP extension
 =====================
 [![Latest Stable Version](https://poser.pugx.org/lysenkobv/yii2-geoip/version)](https://packagist.org/packages/lysenkobv/yii2-geoip) [![Total Downloads](https://poser.pugx.org/lysenkobv/yii2-geoip/downloads)](https://packagist.org/packages/lysenkobv/yii2-geoip) [![Build Status](https://travis-ci.org/lysenkobv/yii2-geoip.svg?branch=1.0.1)](https://travis-ci.org/lysenkobv/yii2-geoip) [![HHVM Status](https://img.shields.io/hhvm/lysenkobv/yii2-geoip.svg)](http://hhvm.h4cc.de/package/lysenkobv/yii2-geoip) [![CodeClimate](https://codeclimate.com/github/lysenkobv/yii2-geoip.png)](https://codeclimate.com/github/lysenkobv/yii2-geoip) 
 
+----
+
+# I'm no longer want to maintain this repository, if you have interest to do this, please contact me on lysenkobv@gmail.com
+
+----
+
 Provides information about geographical location of user by IP address.
 
 Currently available:
