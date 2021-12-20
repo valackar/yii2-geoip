@@ -4,7 +4,7 @@ Yii 2 GeoIP extension
 
 ----
 
-# I'm no longer want to maintain this repository, if you have interest to do this, please contact me on lysenkobv@gmail.com
+# This repository is no longer maintaintained
 
 ----
 
