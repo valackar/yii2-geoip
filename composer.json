@@ -5,10 +5,11 @@
   "type": "yii2-extension",
   "version": "1.0.4",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
-      "name": "Bohdan Lysenko",
-      "email": "lysenkobv@gmail.com"
+      "name": "valackar",
+      "email": "valackar@gmail.com"
     }
   ],
   "require": {
