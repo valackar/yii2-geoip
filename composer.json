@@ -5,7 +5,7 @@
   "type": "yii2-extension",
   "version": "1.0.4",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "valackar",
