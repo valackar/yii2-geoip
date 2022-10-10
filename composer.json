@@ -1,5 +1,5 @@
 {
-  "name": "lysenkobv/yii2-geoip",
+  "name": "valackar/yii2-geoip",
   "description": "Yii 2 GeoIP extension. Returns country, city, lat, lng of current or specified IP (uses MaxMind's GeoIP2 databases)",
   "keywords": ["geoip", "geolocation", "maxmind", "yii2"],
   "type": "yii2-extension",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "lysenkobv\\GeoIP\\": "src/"
+      "valackar\\GeoIP\\": "src/"
     }
   }
 }
