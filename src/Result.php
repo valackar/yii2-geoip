@@ -15,8 +15,8 @@ class Result extends ResultBase {
     protected function getCity($data) {
         $value = null;
 
-        if (isset($data['city']['names']['en'])) {
-            $value = $data['city']['names']['en'];
+        if (isset($data['city']['names']['ru'])) {
+            $value = $data['city']['names']['ru'];
         }
 
         return $value;
@@ -25,8 +25,8 @@ class Result extends ResultBase {
     protected function getCountry($data) {
         $value = null;
 
-        if (isset($data['country']['names']['en'])) {
-            $value = $data['country']['names']['en'];
+        if (isset($data['country']['names']['ru'])) {
+            $value = $data['country']['names']['ru'];
         }
 
         return $value;
