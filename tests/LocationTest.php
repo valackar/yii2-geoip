@@ -4,7 +4,7 @@
 namespace GeoIPUnit;
 
 
-use lysenkobv\GeoIP\Location;
+use valackar\GeoIP\Location;
 
 class LocationTest extends TestCase {
     public function testProperties() {

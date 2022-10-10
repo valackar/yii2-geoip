@@ -1,11 +1,11 @@
 <?php
 
 
-namespace lysenkobv\GeoIP;
+namespace valackar\GeoIP;
 
 /**
  * Class Result
- * @package lysenkobv\GeoIP
+ * @package valackar\GeoIP
  *
  * @property string|null city
  * @property string|null country
